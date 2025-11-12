@@ -7,6 +7,9 @@
       <li>
         <router-link to="/login">Login</router-link>
       </li>
+      <li>
+        <router-link to="/perfil">Perfil</router-link>
+      </li>
     </ul>
   </div>
   <hr />
