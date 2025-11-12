@@ -28,7 +28,9 @@ export default {
             service.login(this.cajaname, this.cajapassword).then(result => {
                 localStorage.setItem("token", result);
                 console.log(localStorage.getItem("token"));
-                this.$router.push("/");
+                this.$router.push("/").then(() => {
+                    window.location.reload();
+                });
             })
         }
     }

@@ -2,11 +2,13 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeComponent from "./components/HomeComponent.vue";
 import LoginComponent from "./components/LoginComponent.vue";
 import PerfilComponent from "./components/PerfilComponent.vue";
+import SubordinadosComponent from "./components/SubordinadosComponent.vue";
 
 const myRoutes = [
     {path: "/", component: HomeComponent},
     {path: "/login", component: LoginComponent},
-    {path: "/perfil", component: PerfilComponent}
+    {path: "/perfil", component: PerfilComponent},
+    {path: "/subordinados", component: SubordinadosComponent}
 ]
 
 const router = createRouter({
